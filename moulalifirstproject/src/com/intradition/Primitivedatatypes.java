@@ -29,6 +29,8 @@ public class Primitivedatatypes {
 		System.out.println(g);
 		
 		
+		
+		
 	}
 
 }
