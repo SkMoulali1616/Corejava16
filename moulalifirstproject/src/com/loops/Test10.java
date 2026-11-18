@@ -1,0 +1,22 @@
+package com.loops;
+
+public class Test10 {
+
+	public static void main(String[] args) {
+		
+		int num=1991;
+		int temp=num;
+		int rev=0;
+		
+		while(num>0) {
+			int rem=num%10;
+			 rev = rev * 10+ rem;
+			 num=num/10;
+		}if(temp==rev) {
+			System.out.println("palindrom number");
+		}else {
+			System.out.println("not a palindrom number");
+		}
+	}
+
+}
